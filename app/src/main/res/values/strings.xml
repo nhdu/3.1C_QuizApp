@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">3.1C_task</string>
+    <string name="question1_title"><u>Activity Life Cycle:</u></string>
+    <string name="question2_title"><u>Android Architecture:</u></string>
+    <string name="question3_title"><u>Android Activity:</u></string>
+    <string name="question4_title"><u>Android Event:</u></string>
+    <string name="question5_title"><u>Android View:</u></string>
+</resources>

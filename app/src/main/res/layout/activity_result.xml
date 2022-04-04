@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resultAct"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/congrat_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="35dp"
+        android:text="Congratulation username!"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Score: "
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/score_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="4/5"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/new_quiz"
+        android:layout_width="202dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:text="Take New Quiz"
+        android:textAllCaps="false"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/submit_button"/>
+
+    <Button
+        android:id="@+id/finish_quiz"
+        android:layout_width="202dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="Finish"
+        android:textAllCaps="false"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/submit_button"
+        android:textColor="@color/black"/>
+
+
+
+
+
+
+</LinearLayout>
